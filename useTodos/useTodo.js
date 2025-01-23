@@ -1,6 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-useReducer/todo-reducer";
-
+import todoReducer from "./todoReducer";
 
 const todoAction = {
     delete: '[TODO] Remove todo',
